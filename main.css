@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .caption{
+        @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm;
+    }
+    .head-card{
+        @apply text-[#333333] md:text-2xl text-xl font-semibold md:mt-8 pt-4 pb-4;
+    }
+
+    .tag{
+        @apply bg-[#5677AC26] text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer;
+    }
+    .news-head{
+        @apply bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 hover:transition-all hover:scale-105 duration-300 cursor-pointer;
+    }
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a4503ce481.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Ticker AI</title>
+</head>
+<body>
+    <!--header section-->
+    <header class="md:mx-14 md:py-4 py-2 px-2">
+        <nav class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-1 md:gap-3">
+                <img src="assets/a7b5599c75b3d258fed76041b9f016e64d9c681d.png" alt="Logo" class="w-10 md:w-14">
+                <p class="text-[8px] md:text-xs ">A Mark Cuban Company <br>
+                   AI-based Financial Market News Aggregator</p>
+            </div>
+            <div class="flex items-center gap-2 md:gap-7">
+                <a href="news.html">
+                    <button class="bg-[#5677AC] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#42669e] transition hover:scale-105 Hover:translate-y-1">Personalize News </button>
+                </a>
+                <div class="text-[#5677AC] bg-[#5677AC26] md:text-2xl text-lg font-bold size-9 rounded-full flex items-center justify-center hover:scale-105 transition-all cursor-pointer">
+                    IK
+                </div>
+                <button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+               </svg>
+
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--banner section-->
+    <section class="flex flex-col items-center md:px-0 px-4 md:py-32 py-20 bg-[url('https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-no-repeat bg-cover">
+        <h1 class="md:text-7xl text-3xl font-bold italic text-white">ticker AI</h1>
+        <div class="flex bg-white md:w-[520px] w-full md:p-4 p-2 items-center rounded gap-4 md:mt-10 mt-4 hover:ring">
+         <i class="fa fa-search"></i>
+         <input type="text" name="search" class="w-full outline-none" placeholder="Search any market topic...">
+        </div>
+        <p class="text-xs text-gray-300 md:pt-4 pt-2">There are 6 articles available for your preferences</p>
+    </section>
+
+
+    <!--news section-->
+    <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
+        <!--all news section-->
+         <section class="md:col-span-9 col-span-full md:ml-8">
+          <div class="flex items-center justify-between md:pb-2.5 border-b border-black md:border-b-[3px]">
+            <h3 class="md:text-2xl text-lg font-semibold text-[#333333]">All News</h3>
+            <div class="flex items-center gap-2">
+                <p>Filter by:</p>
+                <h4 class="font-bold">Stocks</h4>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+
+           <h2 class="head-card">Individual Stocks</h2>
+      <!--card section-->
+           <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/89deab49df24add2c0e90cb5a3f3b1c6cb26359e.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[250px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
+           </div>
+           </div>
+         </div>
+
+           <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/648153e872ec196864036ddb86116b23c7833b58.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[250px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
+           </div>
+           </div>
+         </div>
+
+           <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/2e1202393d500215157f0cd68bd760971757bdb6.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[250px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
+           </div>
+           </div>
+         </div>
+
+         <h2 class="head-card">Stock Sectors</h2>
+
+         <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/22727af9b595a6e71ab5a66a4dcb3c688ac87518.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[250px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
+           </div>
+           </div>
+         </div>
+
+         <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/f30bb72c3bbd066fcd8150f39fe3aa40d806b622.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
+           </div>
+           </div>
+         </div>
+
+         <h2 class="head-card">Stock Market Topics</h2>
+
+         <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+           <img src="assets/a21eb9a7263400a64a29c38384e0986dbbf37f83.jpg" alt="images" class="w-full h-44 object-cover md:h-fit md:size-[250px]">
+           <div class="md:space-y-4 space-y-3">
+            <div class="flex items-center gap-2">
+                <span class="caption">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+           <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+           </div>
+           <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+            <p class="text-[#616161]">06 September 2022</p>
+            <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
+           </div>
+           </div>
+         </div>
+         </section>
+
+
+         <!--feature section-->
+         <section class="md:col-span-3 col-span-12 md:mr-8">
+         <div class="flex items-center justify-between md:pb-2.5 pb-1 border-b border-black md:border-b-[3px]">
+            <h3 class="md:text-2xl text-lg font-semibold text-[#333333] uppercase">Featured</h3>
+         </div>
+         <h2 class="head-card">Daily Rundowns</h2>
+         
+         <!--tag section-->
+         <div class="border border-[#F5F5F5] p-3 md:p-5 space-y-3 md:space-y-5">
+            <div>
+                <h3 class="font-medium pb-2">Earnings:</h3>
+                <div>
+                    <span class="tag">Csan</span>
+                    <span class="tag">Alya</span>
+                    <span class="tag">Gato</span>
+                    <span class="tag">Css</span>
+                    <span class="tag">VZLA</span>
+                    <span class="tag">MFH</span>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="font-medium pb-2">Movers:</h3>
+                <div>
+                    <span class="tag">Csan</span>
+                    <span class="tag">Alya</span>
+                    <span class="tag">Gato</span>
+                    <span class="tag">Css</span>
+                    <span class="tag">VZLA</span>
+                    <span class="tag">MFH</span>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="font-medium pb-2">Technicals:</h3>
+                <div>
+                    <span class="tag">Csan</span>
+                    <span class="tag">Alya</span>
+                    <span class="tag">Gato</span>
+                    <span class="tag">Css</span>
+                    <span class="tag">VZLA</span>
+                    <span class="tag">MFH</span>
+                </div>
+            </div>
+
+         </div>
+
+         <!--images gallery-->
+         <div class="pt-5">
+            <img src="assets/d00db253d4663aaa93740d793287efbcaf5d511d.jpg" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h2>
+         </div>
+
+         <div class="pt-5">
+            <img src="assets/a3da584ca95b4741bc91da10292804bedad2b1a6.jpg" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h2>
+         </div>
+
+         <div class="pt-5">
+            <img src="assets/8c0c2b41bc10973a501504a62eb7a5c25ed7c69b.jpg" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h2>
+         </div>
+         </section>
+    </section>
+    
+    <footer class="text-black text-center pb-5 w-full">
+        All right reserved to TickerAI-2024
+    </footer>
+</body>
+</html>
